@@ -1,6 +1,14 @@
 html {
   background-color: lightblue;
+  font-size: 15px;
 }
+
+main {
+  background-color: white;
+  display: inline;
+  text-align: : center;
+}
+
 h1 {
   color: white;
   align-self: auto;
@@ -25,5 +33,23 @@ p {
 }
 .title {
   color: red;
-  
+
+}
+
+nav li {
+  display: inline;
+}
+nav a {
+  color: #fff;
+  display: inline-block;
+  width: 6em;
+  padding: 1em;
+  background-color: lime;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav .current {
+  background-color: green;
 }
